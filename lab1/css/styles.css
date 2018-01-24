@@ -1,0 +1,62 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {      /*links within "nav" container*/
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline*/
+    color: white;          /*by default, links are blue*/
+}
+
+nav a:hover {
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#me, #welcomeText {
+    float:left;
+    text-align:left;
+}
+
+footer {
+    clear: left;
+    font-size:0.65em;
+    color: #00ff00;
+}
+
+#curr {
+    color:#aaffee;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #004f23;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+
+
+
