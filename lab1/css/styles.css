@@ -1,9 +1,10 @@
 body {
-    background-color:yellow;
-    color:blue;
+    background-color:black;
+    color:white;
 }
 
 h1 {
+    color:cyan;
     font-family: 'Pacifico', cursive;
     font-size: 4em;
     margin-bottom: 0px;
@@ -32,7 +33,7 @@ nav link {
 }
 
 #me, #welcomeText {
-    float:left;
+    float:none;
     text-align:center;
 }
 
@@ -40,6 +41,7 @@ footer {
     clear: left;
     font-size:0.65em;
     color: #0000ff;
+    float: none;
 }
 
 #curr {
@@ -51,6 +53,7 @@ table {
 }
 
 td {
+    
     padding-right: 10px;
     font-size: 1.3em;
 }
@@ -64,6 +67,7 @@ td strong {
 }
 
 .table-row {
+    text-align:center;
     background-color: #753900;
 }
 
@@ -74,6 +78,14 @@ ul {
 
 .hobby {
     color:yellow;
+}
+
+iframe {
+    float: none;
+}
+
+#content {
+    float:none;
 }
 
 
