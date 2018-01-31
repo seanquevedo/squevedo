@@ -12,6 +12,7 @@ h1 {
 
 header, main, nav, footer {
     text-align: center;
+    margin: 0 auto;
 }
 
 nav a {      /*links within "nav" container*/
@@ -41,7 +42,6 @@ footer {
     clear: left;
     font-size:0.65em;
     color: #0000ff;
-    float: none;
 }
 
 #curr {
@@ -80,13 +80,24 @@ ul {
     color:yellow;
 }
 
-iframe {
+/*iframe {*/
+/*    float: right;*/
+/*}*/
+
+#contents{
+    border: 1px solid red;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#aboutme{
     float: none;
 }
 
-#content {
-    float:none;
-}
+/*#contents {*/
+/*    margin: 0 auto;*/
+/*    width: 600px;*/
+/*}*/
 
 
 
