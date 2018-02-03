@@ -35,7 +35,7 @@ nav link {
 
 #me, #welcomeText {
     float:left;
-    width:40%;
+    /*width:40%;*/
 }
 
 footer {
@@ -92,6 +92,14 @@ ul {
 
 #aboutme{
     float: none;
+}
+
+/*hr {*/
+/*    color: pink;*/
+/*}*/
+
+#buddy{
+    width:40%;
 }
 
 /*#contents {*/
