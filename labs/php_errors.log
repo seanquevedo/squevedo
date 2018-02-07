@@ -1,0 +1,2 @@
+[05-Feb-2018 22:54:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/squevedo/labs/lab2/index.php on line 13
+[05-Feb-2018 22:57:12 UTC] PHP Parse error:  syntax error, unexpected 'displaySymbol' (T_STRING) in /home/ubuntu/workspace/squevedo/labs/lab2/index.php on line 17
