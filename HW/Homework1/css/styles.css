@@ -93,3 +93,16 @@ code {
 strong {
     color: black;
 }
+
+#cpptext {
+    float:none;
+}
+
+#javatext {
+    float:none;
+}
+
+#pythontext {
+    float:none;
+}
+
