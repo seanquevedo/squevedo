@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 footer {
-    color:black;
+    color:white;
 }
 
 form {
@@ -24,7 +24,7 @@ strong {
 
 body {
     /*background-color: black;*/
-    background-image:url("img/rockbackground.png");
+    background-image: url("http://kdecradio.com/wp-content/uploads/sites/77/concert-background-modern-orange.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     /*color: white;*/
