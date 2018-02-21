@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+footer {
+    color:white;
+}
+
+form {
+    position:relative;
+}
+
+h1, h2 {
+    color: black;
+    font-family: 'Baloo Bhaina', cursive;
+    
+}
+
+#main {
+    font-family:Helvetica;
+    color:#ffffff;
+}
+
+strong {
+    margin:0 auto;
+}
+
+body {
+    /*background-color: black;*/
+    background-image:url("img/rock_background.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*color: white;*/
+    }
+ul {
+    text-align:right;
+    color: #ffe6e6;
+}
+p {
+    text-align:right;
+    color: yellow;
+}
+
+hr {
+    display: block;
+    border-width: 1px;
+}
+
+html, body {
+    height: 100%;
+}
+            
+#pattern {
+    color:#ffff1a;
+}
+            
+#arrows {
+    height:7%;
+    width: 50px;
+}
+            
+#position1, #position2, #position3, #position0 {
+    height: 12%;
+}
+body {
+    padding: 150px;
+    margin:0 auto;
+    text-align:center;
+}
+#welcome {
+    font-size: 2em;
+    color:#cc0000;
+    text-align:center;
+}

@@ -26,7 +26,8 @@
     }
     
     function displayChord($randomValue, $pos) {
-        $chords = ["a","aminor","c","d","dminor","e","eminor","f","g"];
+        $chords = ["a","aminor","c","d","dminor","e","eminor","f"];
+        array_push($chords, "g");
         
         switch($randomValue) {
             case 0: $chord = $chords[0];

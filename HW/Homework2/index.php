@@ -7,53 +7,11 @@ include 'inc/functions.php';
         <title> Chord Generator </title>
         <meta charset="utf-8" />
         <style>
-            footer {
-                color:white;
-            }
-            body {
-                /*background-color: black;*/
-                background-image:url("img/rock_background.jpg");
-            	background-size: 100% 100%;
-                background-attachment: fixed;
-                /*color: white;*/
-            }
-            ul {
-                text-align:right;
-                color: #ffe6e6;
-            }
-            p {
-                text-align:right;
-                color: yellow;
-            }
-            html, body {
-                height: 100%;
-            }
-            
-            #pattern {
-                color:#ffff1a;
-            }
-            
-            #arrows {
-                height:7%;
-                width: 50px;
-            }
-            #position1, #position2, #position3, #position0 {
-                height: 12%;
-            }
-            body {
-                padding: 150px;
-                margin:0 auto;
-                text-align:center;
-            }
-            #welcome {
-                font-size: 2em;
-                color:#cc0000;
-                text-align:center;
-            }
+            @import url("css/styles.css");
         </style>
     </head>
     <body>
-            <h1>Chord Progression Generator</h1>
+            <h1 id = "main">Chord Progression Generator</h1>
             <p id = "welcome"> Hello! Try out these chords with the given strum pattern. If you don't like it, generate another!</p>
             <br/> 
             <form>
