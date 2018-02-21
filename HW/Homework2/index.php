@@ -9,9 +9,12 @@ include 'inc/functions.php';
         <style>
             @import url("css/styles.css");
         </style>
+        <style>
+            
+        </style>
     </head>
     <body>
-            <h1 id = "main">Chord Progression Generator</h1>
+            <h1 id = "ma">Chord Progression Generator</h1>
             <p id = "welcome"> Hello! Try out these chords with the given strum pattern. If you don't like it, generate another!</p>
             <br/> 
             <form>
