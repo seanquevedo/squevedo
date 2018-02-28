@@ -39,3 +39,15 @@
 [26-Feb-2018 23:39:48 UTC] PHP Fatal error:  Call to undefined function checkCategory() in /home/ubuntu/workspace/squevedo/labs/lab4/index.php on line 94
 [26-Feb-2018 23:39:48 UTC] PHP Stack trace:
 [26-Feb-2018 23:39:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab4/index.php:0
+[28-Feb-2018 22:05:46 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 29
+[28-Feb-2018 22:05:46 UTC] PHP Stack trace:
+[28-Feb-2018 22:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
+[28-Feb-2018 22:05:50 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 29
+[28-Feb-2018 22:05:50 UTC] PHP Stack trace:
+[28-Feb-2018 22:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
+[28-Feb-2018 22:05:51 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 29
+[28-Feb-2018 22:05:51 UTC] PHP Stack trace:
+[28-Feb-2018 22:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
+[28-Feb-2018 22:08:40 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 29
+[28-Feb-2018 22:08:40 UTC] PHP Stack trace:
+[28-Feb-2018 22:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
