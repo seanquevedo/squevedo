@@ -51,3 +51,11 @@
 [28-Feb-2018 22:08:40 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 29
 [28-Feb-2018 22:08:40 UTC] PHP Stack trace:
 [28-Feb-2018 22:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
+[04-Mar-2018 06:17:38 UTC] PHP Warning:  max(): Array must contain at least one element in /home/ubuntu/workspace/squevedo/labs/lab3/functions.php on line 113
+[04-Mar-2018 06:17:38 UTC] PHP Stack trace:
+[04-Mar-2018 06:17:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:0
+[04-Mar-2018 06:17:38 UTC] PHP   2. play() /home/ubuntu/workspace/squevedo/labs/lab3/index.php:15
+[04-Mar-2018 06:17:38 UTC] PHP   3. getHand() /home/ubuntu/workspace/squevedo/labs/lab3/functions.php:20
+[04-Mar-2018 06:17:38 UTC] PHP   4. displayHands() /home/ubuntu/workspace/squevedo/labs/lab3/functions.php:42
+[04-Mar-2018 06:17:38 UTC] PHP   5. displayWinner() /home/ubuntu/workspace/squevedo/labs/lab3/functions.php:92
+[04-Mar-2018 06:17:38 UTC] PHP   6. max() /home/ubuntu/workspace/squevedo/labs/lab3/functions.php:113

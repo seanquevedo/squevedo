@@ -1,4 +1,4 @@
- body {
+body {
     background-image: url(../img/bg2.jpg);
     color:black;
     background-size: cover;
@@ -16,11 +16,56 @@
     top: 100px;
 }
 
+ input {
+        top:75px;
+        left:530px;
+        position:absolute;
+        font-size:1.3em;
+        background-color:black;
+        border:none;
+        outline:center; 
+        font-weight:bold;
+        color:red;
+        cursor:pointer;
+        
+    
+    }
+input:hover {
+    border-bottom: 2px white;
+    transition: .9s;
+    font-size: 2em;
+    
+}
 #charactersAndCards{
     opacity: 1;
 }
-
-
-h5{
+h5, h2, h1{
     font-family: 'Space Mono', monospace;   
 }
+ #icon1{
+      top:10px;
+      left:10px;
+      position:absolute;
+    }
+ #icon2{
+      top:10px;
+      right:10px;
+      position:absolute;
+    }
+#footer{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:600px;
+        margin:0 auto;
+        color:white;
+        padding-top:10px;
+        text-align: center;
+    }
+#seconds{
+    text-align: center;
+    color:red;
+}
+#games{
+        text-align:center;
+        color:red;
+    }

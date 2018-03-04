@@ -2,3 +2,11 @@
 [07-Feb-2018 23:08:25 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/squevedo/practice/random_color.php on line 22
 [07-Feb-2018 23:08:25 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/squevedo/practice/random_color.php on line 22
 [07-Feb-2018 23:09:22 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/squevedo/practice/random_color.php on line 22
+[02-Mar-2018 04:27:53 UTC] PHP Warning:  max(): Array must contain at least one element in /home/ubuntu/workspace/squevedo/lab3/functions.php on line 107
+[02-Mar-2018 04:27:53 UTC] PHP Stack trace:
+[02-Mar-2018 04:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/lab3/index.php:0
+[02-Mar-2018 04:27:53 UTC] PHP   2. play() /home/ubuntu/workspace/squevedo/lab3/index.php:17
+[02-Mar-2018 04:27:53 UTC] PHP   3. getHand() /home/ubuntu/workspace/squevedo/lab3/functions.php:14
+[02-Mar-2018 04:27:53 UTC] PHP   4. displayHands() /home/ubuntu/workspace/squevedo/lab3/functions.php:35
+[02-Mar-2018 04:27:53 UTC] PHP   5. displayWinner() /home/ubuntu/workspace/squevedo/lab3/functions.php:88
+[02-Mar-2018 04:27:53 UTC] PHP   6. max() /home/ubuntu/workspace/squevedo/lab3/functions.php:107
