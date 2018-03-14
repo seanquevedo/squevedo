@@ -96,9 +96,9 @@
     }
     
     function findMaxIndex($array) {
-        // if ($array = array(0,0,0,0,0)) {
-        //     return 5;
-        // }
+        if ($array = array(0,0,0,0,0)) {
+            return 5;
+        }
         $result = 0;
         $max = 0;
         for($k = 0; $k < sizeof($array); $k++) {
@@ -286,6 +286,9 @@
                  if($index == 4) {
                      echo "<img src='img/funfetti.jpg' alt='Funfetti'>";
                      echo "You got Funfetti!";
+                 }
+                 if($index == 5) {
+                     echo "Are you ready to know?";
                  }
                  
                  ?>
