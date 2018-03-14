@@ -38,25 +38,25 @@
             <br> <br>
             
             Check your favorite toppings: <br>    
-            <input type="checkbox" id="basic"  name="toppings" value="basket">
+            <input type="checkbox" id="basic"  name="toppings" value="basic">
             <label for="basic"> None, I'm basic </label> <br>
             
-            <input type="checkbox" id="buttercream"  name="toppings" value="basket">
+            <input type="checkbox" id="buttercream"  name="toppings" value="buttercream">
             <label for="buttercream"> Buttercream </label> <br> 
             
-            <input type="checkbox" id="chocolate"  name="toppings" value="basket">
+            <input type="checkbox" id="chocolate"  name="toppings" value="fudge">
             <label for="chocolate"> Chocolate Fudge </label> <br> 
             
-            <input type="checkbox" id="fruit"  name="toppings" value="basket">
+            <input type="checkbox" id="fruit"  name="toppings" value="fruit">
             <label for="fruit"> Fruit </label> <br>  
             
-            <input type="checkbox" id="icecream"  name="toppings" value="basket">
+            <input type="checkbox" id="icecream"  name="toppings" value="icecream">
             <label for="icecream"> Ice Cream </label> <br>
             
-            <input type="checkbox" id="sprinkles" name="toppings" value="basket">
+            <input type="checkbox" id="sprinkles" name="toppings" value="sprinkles">
             <label for="sprinkles"> Sprinkles </label> <br>
             
-            <input type="checkbox" id="whipped" name="toppings" value="basket">
+            <input type="checkbox" id="whipped" name="toppings" value="cream">
             <label for="whipped"> Whipped Cream </label> <br>
             
             <br> 
