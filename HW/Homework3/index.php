@@ -6,7 +6,7 @@
     if ( isset($_GET["fullName"])) {
         echo "<h2>Hi " . ucfirst($_GET["fullName"]) . "!</h2>";
     } else if($_GET["fullName"] == "") {
-        echo "Welcome!";
+        echo "Welcome! Please fill out the form. <br>";
     }
     
     
@@ -48,6 +48,8 @@
         if($genre == "kpop") {
             $counts[3] += 2;
         }
+    } else {
+        echo "<br>      Please choose your favorite genre";
     }
     
     
@@ -63,8 +65,10 @@
             $counts[2]++;
             $counts[3]++;
             $counts[4]++;
+        } else {
+        echo "<br>       Please choose base or frosting";
         }
-    }
+    } 
     
     //tally activity
     if(isset($_GET["activity"])) {
@@ -84,6 +88,9 @@
         if($genre == "youtube") {
             $counts[1] += 2;
         }
+    } else {
+        
+        echo "<br>        Please fill out your favorite activity";
     }
     
     $index = findMaxIndex($counts);
@@ -96,7 +103,10 @@
     }
     
     function findMaxIndex($array) {
-        if ($array = array(0,0,0,0,0)) {
+        // if ($array = array(0,0,0,0,0)) {
+        //     return 5;
+        // }
+        if(empty($array)) {
             return 5;
         }
         $result = 0;
@@ -147,36 +157,7 @@
 <html>
     <head>
         <title> What kind of cake are you? </title>
-        
-        <style>
-            h1 {
-                color: #f0c2e0;
-                text-align: center;
-            }
-            
-            div {
-                float:right;
-            }
-            img {
-                width:40%;
-            }
-            
-            h2 {
-                color: #faeaf5;
-                text-align: center;
-            }
-            
-            body {
-                background-color:#d147a3;
-                color:white;
-            }
-            
-            form {
-                /*width:40%;*/
-                margin-left:400px;
-                position: relative;
-            }
-        </style>
+        <link href ="css/styles.css" rel ="stylesheet" type="text/css" />
         
     </head>
     <body>
@@ -184,7 +165,7 @@
         <form method = "GET">
             Please enter your name: <input type="text" size="20" name="fullName" placeholder="Insert Full Name" value = "<?=$_GET['keyword']?>"/>
             
-            <br>
+            <br><br>
             
             Choose your favorite color: <input type="color" name = "color" value="#1111ff">
             
