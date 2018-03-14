@@ -25,3 +25,13 @@ form {
     margin-left:400px;
     position: relative;
 }
+
+footer {
+    
+    font-size:0.65em;
+    color: white;
+}
+
+#me {
+    width:10%;
+}

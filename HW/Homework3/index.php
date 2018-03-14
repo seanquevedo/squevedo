@@ -282,7 +282,7 @@
              <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
              It is used for academic purposes only.
              <br /> <br />
-             <img src = "img/csumb_logo.jpg" alt="CSUMB logo" />
+             <img id = "me" src = "img/csumb_logo.jpg" alt="CSUMB logo" width = "10%"/>
              <!--<figure id ="buddy">-->
              <!--  <img src = "img/buddy_verified.png" alt="Buddy system sticker" />-->
              <!--</figure>-->
