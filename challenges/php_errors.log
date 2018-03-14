@@ -61,3 +61,10 @@
 [19-Feb-2018 23:50:09 UTC] PHP Fatal error:  Call to undefined function createTable() in /home/ubuntu/workspace/squevedo/challenges/challenge4/passwordgenerator.php on line 67
 [19-Feb-2018 23:50:09 UTC] PHP Stack trace:
 [19-Feb-2018 23:50:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/challenges/challenge4/passwordgenerator.php:0
+[12-Mar-2018 21:33:28 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/squevedo/challenges/challenge5/reports.php on line 13
+[12-Mar-2018 21:33:28 UTC] PHP Stack trace:
+[12-Mar-2018 21:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/challenges/challenge5/reports.php:0
+[12-Mar-2018 21:33:28 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/squevedo/challenges/challenge5/reports.php on line 13
+[12-Mar-2018 21:33:28 UTC] PHP Stack trace:
+[12-Mar-2018 21:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/challenges/challenge5/reports.php:0
+[12-Mar-2018 21:44:55 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/squevedo/challenges/challenge5/reports.php on line 64
