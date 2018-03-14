@@ -6,3 +6,20 @@
 [21-Feb-2018 07:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework2/index.php:0
 [21-Feb-2018 07:12:22 UTC] PHP   2. displayStrumming() /home/ubuntu/workspace/squevedo/HW/Homework2/index.php:34
 [21-Feb-2018 08:28:49 UTC] PHP Parse error:  syntax error, unexpected 'displayStrumming' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/squevedo/HW/Homework2/index.php on line 61
+[14-Mar-2018 06:57:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 12
+[14-Mar-2018 07:22:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 3
+[14-Mar-2018 08:28:42 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 223
+[14-Mar-2018 08:28:42 UTC] PHP Stack trace:
+[14-Mar-2018 08:28:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework3/index.php:0
+[14-Mar-2018 08:30:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 225
+[14-Mar-2018 08:30:09 UTC] PHP Stack trace:
+[14-Mar-2018 08:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework3/index.php:0
+[14-Mar-2018 08:30:11 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 225
+[14-Mar-2018 08:30:11 UTC] PHP Stack trace:
+[14-Mar-2018 08:30:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework3/index.php:0
+[14-Mar-2018 08:30:16 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 225
+[14-Mar-2018 08:30:16 UTC] PHP Stack trace:
+[14-Mar-2018 08:30:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework3/index.php:0
+[14-Mar-2018 08:31:06 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/squevedo/HW/Homework3/index.php on line 225
+[14-Mar-2018 08:31:06 UTC] PHP Stack trace:
+[14-Mar-2018 08:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/HW/Homework3/index.php:0
