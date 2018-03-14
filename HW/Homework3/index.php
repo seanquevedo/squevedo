@@ -275,5 +275,17 @@
                  ?>
             </h3>
          </div>
+         
+         <footer>
+            <hr>
+             Internet Programming. 2018&copy; Quevedo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+             It is used for academic purposes only.
+             <br /> <br />
+             <img src = "img/csumb_logo.jpg" alt="CSUMB logo" />
+             <!--<figure id ="buddy">-->
+             <!--  <img src = "img/buddy_verified.png" alt="Buddy system sticker" />-->
+             <!--</figure>-->
+        </footer>
     </body>
 </html>
