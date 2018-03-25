@@ -92,3 +92,55 @@ Stack trace:
 #1 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(26): displayCategories()
 #2 {main}
   thrown in /home/ubuntu/workspace/squevedo/labs/lab6/index.php on line 20
+[14-Mar-2018 22:02:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(89): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/index.php on line 14
+[14-Mar-2018 22:04:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(89): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/index.php on line 14
+[14-Mar-2018 22:04:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/labs/lab6/index.php(89): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/index.php on line 14
+[14-Mar-2018 22:35:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 17
+[14-Mar-2018 22:35:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''om_product'
+            NATURAL JOIN om_purchase
+            WHERE productId = ' at line 2' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 17
+[14-Mar-2018 22:38:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''om_product'
+            NATURAL JOIN om_purchase
+            WHERE productId = ' at line 2' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 17
+[14-Mar-2018 22:38:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 25
+[14-Mar-2018 22:39:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 25
+[14-Mar-2018 22:39:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab6/purchaseHistory.php on line 25
