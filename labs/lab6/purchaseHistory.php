@@ -1,11 +1,3 @@
-<?php
-
-
-    $productId = $_GET['productId'];
-
-
- ?>
-
 
 <?php
     
@@ -34,7 +26,13 @@
         echo "Purchase Date: " . $record["purchaseDate"] . "<br />";
         echo "Unit Price: " . $record["unitPrice"] . "<br />";
         echo "Quantity: " . $record["quantity"] . "<br />";
+        
+        
      
+    }
+    
+    if(sizeof($records) == 0) {
+        echo "No purchase information found, please direct back and choose another item!";
     }
 
  ?>

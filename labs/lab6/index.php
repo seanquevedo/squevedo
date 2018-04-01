@@ -79,7 +79,7 @@
             foreach ($records as $record) {
             
                  echo "<a href =\"purchaseHistory.php?productId=" .$record["productId"]. "\"> History </a>";
-                 echo  $record["productName"] . " " . $record["productDescription"] . " $". $record["price"] ."<br />";
+                 echo  $record["productName"] . " " . $record["productDescription"] . " $". $record["price"] ."<br /> <br>";
             
             }
         }
@@ -93,6 +93,7 @@
 <html>
     <head>
         <title> OtterMart Product Search </title>
+        <link href ="css/styles.css" rel ="stylesheet" type="text/css" />
     </head>
     <body>
 
