@@ -1,39 +1,26 @@
 <?php
 
-    function getDataBaseConnection($dbName) {
-        
-        $host = "localhost";
-        $dbname = $dbName;
-        $username = "root";
-        $password = "";
-        $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    function getDatabaseConnection($dbName) {
     
-        return $dbConn;
+    $host = "localhost";
+    $dbname = $dbName;
+    $username = "root";
+    $password = "";
+    
+    //checks whether the URL contains "herokuapp" (using Heroku)
+    if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') != false) {
+       $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+       $host = $url["host"];
+       $dbname = substr($url["path"], 1);
+       $username = $url["user"];
+       $password = $url["pass"];
     }
     
-    function getDataBaseConnection2($dbName) {
-        
-        $host = "us-cdbr-iron-east-05.cleardb.net";
-        $dbname = $dbName;
-        $username = "b8d9b5c0dc7158";
-        $password = "3b2fec90";
-        $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-        return $dbConn;
+    return $dbConn;
+    
     }
-    
-    function getDataBaseConnection3($dbName) {
-        
-        $host = "localhost";
-        $dbname = $dbName;
-        $username = "root";
-        $password = "";
-        $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
-        return $dbConn;
-    }
-    
+
 ?>
