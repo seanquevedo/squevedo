@@ -1,0 +1,33 @@
+#gameScreen {
+	position: relative;
+	/*vertical-align: middle;*/
+	margin: 0 auto;
+	background-color: silver;
+	overflow: hidden;
+}
+
+body {
+	background-color: black;
+}
+
+#output {
+	color: yellow;
+	text-align: center;
+	font-size: 5em;
+}
+.gameObject {
+	position: absolute;
+	z-index: 1;
+}
+
+footer {
+    /*clear: left;*/
+    /*font-size:0.65em;*/
+    color: white;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.65em;
+    
+}
