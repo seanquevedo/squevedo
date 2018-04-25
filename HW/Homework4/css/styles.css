@@ -32,6 +32,10 @@ footer {
     
 }
 
+#UI {
+    color: white !important;
+    position: relative;
+}
 #buddy {
 	display: block;
   max-width:64px;
