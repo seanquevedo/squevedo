@@ -13,7 +13,7 @@ body {
 #output {
 	color: yellow;
 	text-align: center;
-	font-size: 5em;
+	font-size: 2.5em;
 }
 .gameObject {
 	position: absolute;
@@ -30,4 +30,12 @@ footer {
     margin-right: auto;
     font-size: 0.65em;
     
+}
+
+#buddy {
+	display: block;
+  max-width:64px;
+  max-height:64px;
+  width: auto;
+  height: auto;
 }
