@@ -29,8 +29,8 @@ function init(){
 	gameScreen.style.height = GS_HEIGHT + 'px';
 	
 	//lives
-	lives = 3;
-	enemiesLeft = 20;
+	// lives = 3;
+	// enemiesLeft = 20;
 	
 	//show stats
 // 	$("#UI").show();
@@ -212,15 +212,15 @@ function gameloop(){
 			explode(enemies[i]);
 			lives--;
 // 			alert(lives + " lives left! Click to continue.");
-			ship.style.top = (lives > 0) ? "500px" :"-10000px" ;
-// 			ship.style.top = "-10000px"; //makes ship disappear
+			// ship.style.top = (lives > 0) ? "500px" :"-10000px" ;
+			ship.style.top = "-10000px"; //makes ship disappear
 			placeEnemyShip(enemies[i]);
 		}
 	}
 	
-	if(enemiesLeft == 0 || lives == 0) {
-	        //Just say game over!
-	 }
+	// if(enemiesLeft == 0 || lives == 0) {
+	//         //Just say game over!
+	//  }
 	 
 // 	 $("#UI").html("Number of lives: " + lives);
 	 
