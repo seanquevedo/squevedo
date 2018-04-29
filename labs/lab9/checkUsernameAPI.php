@@ -3,7 +3,7 @@
 
 include '../../dbConnection.php';
 
-$conn = getDatabaseConnection("c9");
+$conn = getDatabaseConnection("heroku_4628af27155051c");
 
 $username = $_GET["username"];
 
