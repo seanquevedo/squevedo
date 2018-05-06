@@ -202,3 +202,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/squevedo/labs/lab7/addProduct.php(37): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/squevedo/labs/lab7/addProduct.php on line 37
+[30-Apr-2018 21:53:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pets.PETS' doesn't exist' in /home/ubuntu/workspace/squevedo/labs/lab10/pets.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/labs/lab10/pets.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/labs/lab10/pets.php(9): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/labs/lab10/pets.php on line 19
