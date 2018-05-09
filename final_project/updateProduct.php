@@ -72,7 +72,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Update Product </title>
+        <title>Update Book </title>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -110,8 +110,16 @@
                 <?php getCategories( $product['categoryID'] ); ?>
             </select> <br />
             Set Image Url: <input type = "text" name = "productImage" value = "<?=$product['bookImage']?>"><br>
-            <input type="submit" name="updateProduct" value="Update Product">
+            <input type="submit" name="updateProduct" value="Update Book">
             
         </form>
     </body>
+    
+    <footer>
+            <hr>
+             Internet Programming. 2018&copy; Quevedo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+             It is used for academic purposes only.
+             
+    </footer>
 </html>

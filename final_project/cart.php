@@ -107,4 +107,6 @@ if (isset($_POST["clearCart"])) {
     <h3> Your shopping cart is empty </h3>
     <?php } ?>
 </body>
+
+
 </html>

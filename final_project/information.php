@@ -80,4 +80,12 @@
         <!--<h1><a href="index.php"> CSUMB Library </a></h1>-->
         <?php displayInfo(); ?>
     </body>
+    
+    <footer>
+            <hr>
+             Internet Programming. 2018&copy; Quevedo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+             It is used for academic purposes only.
+             
+    </footer>
 </html>

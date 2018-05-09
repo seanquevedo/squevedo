@@ -73,7 +73,7 @@ if (isset($_GET['submitProduct'])) {
         </nav>
         
         
-        <h1> Add a product</h1>
+        <h1> Add a Book</h1>
         <form>
             Product name: <input type="text" name="productName"><br>
             Description: <textarea name="description" cols = 50 rows = 4></textarea><br>
@@ -83,8 +83,16 @@ if (isset($_GET['submitProduct'])) {
                 <?php getCategories(); ?>
             </select> <br />
             Set Image Url: <input type = "text" name = "productImage"><br>
-            <input type="submit" name="submitProduct" value="Add Product">
+            <input type="submit" name="submitProduct" value="Add Book">
             
         </form>
     </body>
+    
+    <footer>
+            <hr>
+             Internet Programming. 2018&copy; Quevedo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+             It is used for academic purposes only.
+             
+    </footer>
 </html>

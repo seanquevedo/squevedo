@@ -51,7 +51,7 @@
         
         if (isset($_GET['searchButton'])) { //checks whether user has submitted the form
             
-            echo "<br> <h3>Products Found: </h3> "; 
+            echo "<br> <h3>Books Found: </h3> "; 
             
             //following sql works but it DOES NOT prevent SQL Injection
             //$sql = "SELECT * FROM om_product WHERE 1
@@ -122,15 +122,15 @@
             foreach ($records as $record) { 
                 //add category //add 
                 // <a href = "\information.php?bookId=1> </a>"?
-                //  echo "<a href =\"information.php?bookId=" . $record["bookID"] . "\"> More Info </a> <br> "; THIS IS THE ONE
+                 echo "<a href =\"information.php?bookId=" . $record["bookID"] . "\"> More Info </a> <br> "; //THIS IS THE ONE
                 
                  
                 //  echo "<a href='addCart.php?bookId=" . $record["bookID"] . "'>Add to cart </a>";
                  echo  "<a style='color:black; background-color:white;'> <strong> " . $record["bookName"] . " by " . $record["authorName"] . ":</strong> <br>" . " " . $record["bookDescription"] . "</a><br>Price: $" . $record["price"] . "<br />";
-                 echo "<a href='#' class='bookLink' value='" .
-                    $record["bookID"] . "name = " . $record["bookID"] . " id='".$record['bookID']."'  > More Info </a> <br>"; //this is the ajax one
+                //  echo "<a href='#' class='bookLink' value='" .
+                //     $record["bookID"] . "name = " . $record["bookID"] . " id='".$record['bookID']."'  > More Info </a> <br>"; //this is the ajax one
                  echo "<form method='post'><input type='hidden' name='bookId' value='" .
-                    $record["bookID"] . "'><input type='submit' value='Add to cart' name='addBook'></form>";
+                    $record["bookID"] . "'><input type='submit' value='Add to cart' name='addBook'></form> <br><br>";
             }
         }
             
@@ -242,56 +242,56 @@
         </form>
             <?= displaySearchResults(); ?>
             
-         <script>
+          <script>
     
-            $(document).ready(function(){
+        //     $(document).ready(function(){
             
-                    // $("#adoptionsLink").addClass("active");
+        //             // $("#adoptionsLink").addClass("active");
                     
-                    $(".bookLink").click(function(){
+        //             $(".bookLink").click(function(){
                         
-                        // alert( "in here" );
+        //                 // alert( "in here" );
                         
-                        $('#bookModal').modal("show");
-                        $("#bookInfo").html("<img src='img/loading.gif'>");
+        //                 $('#bookModal').modal("show");
+        //                 $("#bookInfo").html("<img src='img/loading.gif'>");
                               
                         
-                        $.ajax({
+        //                 $.ajax({
         
-                            type: "GET",
-                            url: "api/getBookInfo.php",
-                            dataType: "json",
-                            data: { "bookID": $(this).attr("bookID")},
-                            success: function(data,status) {
-                              //alert(data.breed);
-                              //log.console(data.pictureURL);
+        //                     type: "GET",
+        //                     url: "api/getBookInfo.php",
+        //                     dataType: "json",
+        //                     data: { "bookID": $(this).attr("bookID")},
+        //                     success: function(data,status) {
+        //                       //alert(data.breed);
+        //                       //log.console(data.pictureURL);
                                
-                               if(!data) {
-                                   alert("nothing here");
-                               }
-                              $("#bookModalLabel").html("<h2>" + data.bookName +"</h2>");
-                              $("#bookInfo").html("");
-                            //   $("#bookInfo").append("Age: " + data.age + " years <br>");
-                            //   $("#bookInfo").append(data.breed + "<br>");
-                              $("#bookInfo").append(data.bookDescription + "<br>");
-                              $("#bookInfo").append("<img src='img/" + data.bookImage +"' width='200'>");
+        //                       if(!data) {
+        //                           alert("nothing here");
+        //                       }
+        //                       $("#bookModalLabel").html("<h2>" + data.bookName +"</h2>");
+        //                       $("#bookInfo").html("");
+        //                     //   $("#bookInfo").append("Age: " + data.age + " years <br>");
+        //                     //   $("#bookInfo").append(data.breed + "<br>");
+        //                       $("#bookInfo").append(data.bookDescription + "<br>");
+        //                       $("#bookInfo").append("<img src='img/" + data.bookImage +"' width='200'>");
                                
                             
-                            },
-                            complete: function(data,status) { //optional, used for debugging purposes
-                            // alert("done");
-                            }
+        //                     },
+        //                     complete: function(data,status) { //optional, used for debugging purposes
+        //                     // alert("done");
+        //                     }
                             
-                        });//ajax
+        //                 });//ajax
                         
                         
-                    });
+        //             });
                 
                 
-            }); //document ready
+        //     }); //document ready
             
             
-         </script>
+        //  </script>
         
             <!-- Modal -->
     <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -316,4 +316,6 @@
     </div>
 
     </body>
+    
+    
 </html>

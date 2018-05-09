@@ -150,7 +150,7 @@ function displayAllProducts(){
         
         <br />
         <form action="addProduct.php">
-            <input type="submit" name="addproduct" value="Add Product"/>
+            <input type="submit" name="addproduct" value="Add Book"/>
         </form>
         
         <form action="logout.php">
@@ -179,4 +179,12 @@ function displayAllProducts(){
         
 
     </body>
+    
+    <footer>
+            <hr>
+             Internet Programming. 2018&copy; Quevedo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+             It is used for academic purposes only.
+             
+    </footer>
 </html>
