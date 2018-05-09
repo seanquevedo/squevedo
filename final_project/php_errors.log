@@ -23,3 +23,57 @@ Stack trace:
 #0 /home/ubuntu/workspace/squevedo/final_project/api/getBookInfo.php(9): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/squevedo/final_project/api/getBookInfo.php on line 9
+[09-May-2018 17:53:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:51 UTC] PHP Stack trace:
+[09-May-2018 17:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:51 UTC] PHP Stack trace:
+[09-May-2018 17:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:53:51 UTC] PHP Stack trace:
+[09-May-2018 17:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:53:52 UTC] PHP Stack trace:
+[09-May-2018 17:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:53 UTC] PHP Stack trace:
+[09-May-2018 17:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:53 UTC] PHP Stack trace:
+[09-May-2018 17:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:53:53 UTC] PHP Stack trace:
+[09-May-2018 17:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:55 UTC] PHP Stack trace:
+[09-May-2018 17:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:53:55 UTC] PHP Stack trace:
+[09-May-2018 17:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:53:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:53:55 UTC] PHP Stack trace:
+[09-May-2018 17:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:54:37 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:54:37 UTC] PHP Stack trace:
+[09-May-2018 17:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:54:37 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 2
+[09-May-2018 17:54:37 UTC] PHP Stack trace:
+[09-May-2018 17:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0
+[09-May-2018 17:54:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php on line 3
+[09-May-2018 17:54:37 UTC] PHP Stack trace:
+[09-May-2018 17:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/api/aggregatesAPI.php:0

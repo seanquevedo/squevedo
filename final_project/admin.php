@@ -32,6 +32,7 @@ function displayAllProducts(){
                 display: inline;
             }
             
+            
         </style>
         
         <script>
@@ -68,28 +69,84 @@ function displayAllProducts(){
         <h3> Welcome <?=$_SESSION['adminName']?>! </h3>
         
         
-        <input type="hidden" name="count" value="number">
-        <input type="submit" value="# of Books">
+        <form>
+                <input type="button" id="count" value="# of Books"> 
+                <input type="button" id="min" value="Cheapest Book">
+                <input type="button" id="max" value="Most Expensive Book">
+        </form>
         
-        <input type="hidden" name="expensive" value="exp">
-        <input type="submit" value="Most Expensive Book">
-        
-        <input type="hidden" name="cheap" value="chp">
-        <input type="submit" value="Cheapest Book">
-        
-        <?php
-          if (!empty($_GET['count'])) {
-            echo "Hello worldCC!"; //Your code here
-          } 
+        <div id= "ajax">
           
-          if (!empty($_GET['expensive'])) {
-            echo "Hello worldEE!"; //Your code here
-          } 
-          
-          if (!empty($_GET['cheap'])) {
-            echo "Hello worldCHP!!"; //Your code here
-          } 
-        ?>
+        </div>
+        
+        
+        <script>
+            $(document).ready(function(){
+        
+                $("#count").click(function(event){
+                    
+                    $.ajax({
+        
+                        type: "GET",
+                        url: "api/aggregatesAPI.php",
+                        dataType: "json",
+                        data: {"count" : $(this).attr("count") },
+                        success: function(data,status) {
+                                $('#ajax').empty();
+                                $('#ajax').append("There are " + data.count + " books in the database");
+                                $('#ajax').show();
+                            
+                        },
+                        complete: function(data,status) {
+                        }
+                        
+                        });//ajax
+                    
+                });
+                $("#min").click(function(event){
+                    
+                    $.ajax({
+        
+                        type: "GET",
+                        url: "api/aggregatesAPI.php",
+                        dataType: "json",
+                        data: {"min" : $(this).attr("min") },
+                        success: function(data,status) {
+                                $('#ajax').empty();
+                                $('#ajax').append("Cheapest Book costs $" + data.min);
+                                $('#ajax').show();
+                            
+                        },
+                        complete: function(data,status) {
+                        }
+                        
+                        });//ajax
+                    
+                });
+                $("#max").click(function(event){
+                    
+                    $.ajax({
+        
+                        type: "GET",
+                        url: "api/aggregatesAPI.php",
+                        dataType: "json",
+                        data: {"max" : $(this).attr("max") 
+                        },
+                        success: function(data,status) {
+                                $('#ajax').empty();
+                                $('#ajax').append("Most of Expensive Book costs $" + data.max);
+                                $('#ajax').show();
+                            
+                        },
+                        complete: function(data,status) {
+                        }
+                        
+                        });//ajax
+                    
+                });
+        
+             });
+        </script>
         
         <br />
         <form action="addProduct.php">
