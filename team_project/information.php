@@ -24,6 +24,7 @@
         // echo $record['bookName'] . "<br>";
         
         echo "<img src='" . $record['bookImage'] . "' width = '200' /></p><br>";
+        echo "<p>Price: $" . $record["price"] . "</p><br />";
         echo "<p>Title: " . $record["bookName"] . "</p><br />";
         echo "<p>Book Description: " . $record["bookDescription"] . "</p><br />";
         echo "<p>Author: " . $record["authorName"] . "</p><br />";       //how to get author name?

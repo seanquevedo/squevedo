@@ -51,6 +51,8 @@
         $np[":price"] = $_GET['price'];
         $np[":catId"] = $_GET['catId'];
         $np[":productId"] = $_GET['productId'];
+        
+        echo "<h2> " . $sql . "</h2>";
                 
         $statement = $connection->prepare($sql);
         $statement->execute($np);        

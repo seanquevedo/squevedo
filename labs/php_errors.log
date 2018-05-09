@@ -208,3 +208,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/squevedo/labs/lab10/pets.php(9): getAllPets()
 #2 {main}
   thrown in /home/ubuntu/workspace/squevedo/labs/lab10/pets.php on line 19
+[09-May-2018 05:02:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_4628af27155051c'' in /home/ubuntu/workspace/squevedo/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/squevedo/labs/lab9/checkUsernameAPI.php(6): getDatabaseConnection('heroku_4628af27...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/dbConnection.php on line 19

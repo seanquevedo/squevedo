@@ -28,3 +28,185 @@
 [10-Apr-2018 23:26:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/CST336-Project1/index.php on line 6
 [10-Apr-2018 23:26:18 UTC] PHP Stack trace:
 [10-Apr-2018 23:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/CST336-Project1/index.php:0
+[09-May-2018 04:07:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND price <=   ORDER BY bookName' at line 1' in /home/ubuntu/workspace/squevedo/final_project/index.php:116
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/index.php(116): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/index.php(237): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/index.php on line 116
+[09-May-2018 04:07:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND price <=   ORDER BY bookName' at line 1' in /home/ubuntu/workspace/squevedo/final_project/index.php:116
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/index.php(116): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/index.php(237): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/index.php on line 116
+[09-May-2018 04:25:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/squevedo/final_project/information.php on line 26
+[09-May-2018 05:31:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/squevedo/final_project/index.php on line 134
+[09-May-2018 05:42:06 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:06 UTC] PHP Stack trace:
+[09-May-2018 05:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:06 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:06 UTC] PHP Stack trace:
+[09-May-2018 05:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:06 UTC] PHP Stack trace:
+[09-May-2018 05:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:07 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:07 UTC] PHP Stack trace:
+[09-May-2018 05:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:07 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:07 UTC] PHP Stack trace:
+[09-May-2018 05:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:07 UTC] PHP Stack trace:
+[09-May-2018 05:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:08 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:08 UTC] PHP Stack trace:
+[09-May-2018 05:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:08 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:08 UTC] PHP Stack trace:
+[09-May-2018 05:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:08 UTC] PHP Stack trace:
+[09-May-2018 05:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:09 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:09 UTC] PHP Stack trace:
+[09-May-2018 05:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:09 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:09 UTC] PHP Stack trace:
+[09-May-2018 05:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:09 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:09 UTC] PHP Stack trace:
+[09-May-2018 05:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:18 UTC] PHP Stack trace:
+[09-May-2018 05:42:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:18 UTC] PHP Stack trace:
+[09-May-2018 05:42:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:18 UTC] PHP Stack trace:
+[09-May-2018 05:42:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:19 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:19 UTC] PHP Stack trace:
+[09-May-2018 05:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:19 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:19 UTC] PHP Stack trace:
+[09-May-2018 05:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:19 UTC] PHP Stack trace:
+[09-May-2018 05:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:20 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:20 UTC] PHP Stack trace:
+[09-May-2018 05:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:20 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:20 UTC] PHP Stack trace:
+[09-May-2018 05:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:20 UTC] PHP Stack trace:
+[09-May-2018 05:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:25 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:25 UTC] PHP Stack trace:
+[09-May-2018 05:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:25 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:42:25 UTC] PHP Stack trace:
+[09-May-2018 05:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:42:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:42:25 UTC] PHP Stack trace:
+[09-May-2018 05:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:43:01 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:43:01 UTC] PHP Stack trace:
+[09-May-2018 05:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:43:01 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 8
+[09-May-2018 05:43:01 UTC] PHP Stack trace:
+[09-May-2018 05:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:43:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 9
+[09-May-2018 05:43:01 UTC] PHP Stack trace:
+[09-May-2018 05:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/admin.php:0
+[09-May-2018 05:45:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp.om_product' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/admin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/admin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/admin.php(70): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/admin.php on line 15
+[09-May-2018 06:00:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.category' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(91): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 12
+[09-May-2018 06:01:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.category' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(91): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 12
+[09-May-2018 06:01:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.category' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(91): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 12
+[09-May-2018 06:01:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.category' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(91): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 12
+[09-May-2018 06:02:12 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/squevedo/final_project/addProduct.php on line 7
+[09-May-2018 06:02:12 UTC] PHP Stack trace:
+[09-May-2018 06:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/addProduct.php:0
+[09-May-2018 06:02:12 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/squevedo/final_project/addProduct.php on line 7
+[09-May-2018 06:02:12 UTC] PHP Stack trace:
+[09-May-2018 06:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/addProduct.php:0
+[09-May-2018 06:02:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/squevedo/final_project/addProduct.php on line 8
+[09-May-2018 06:02:12 UTC] PHP Stack trace:
+[09-May-2018 06:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/squevedo/final_project/addProduct.php:0
+[09-May-2018 06:02:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.category' doesn't exist' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(91): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 12
+[09-May-2018 06:10:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/squevedo/final_project/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/updateProduct.php on line 29
+[09-May-2018 06:30:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'catId' in 'field list'' in /home/ubuntu/workspace/squevedo/final_project/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/addProduct.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/addProduct.php on line 41
+[09-May-2018 06:33:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php on line 9
+[09-May-2018 06:34:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php on line 9
+[09-May-2018 06:34:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php on line 9
+[09-May-2018 06:34:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php on line 9
+[09-May-2018 06:35:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/deleteProduct.php on line 10
+[09-May-2018 06:48:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''authorID') 
+             VALUES ( '$ean', 'Story of a rich boii', 'https://en.w' at line 2' in /home/ubuntu/workspace/squevedo/final_project/addProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/squevedo/final_project/addProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/squevedo/final_project/addProduct.php on line 42
